@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<textarea name="" id="p" cols="30" rows="10"></textarea>
+<button id="btn">提交</button>
+    <script type="text/javascript">
+        p.oninput = function (){
+            if(p.value.length<60){
+                btn.onclick = function(){
+                }
+            }else{
+                btn.disabled=true;
+            }
+        }
+    </script>
+</body>
+</html>
